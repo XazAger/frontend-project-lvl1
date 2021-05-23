@@ -6,3 +6,9 @@ brain-games: # Start code
 
 publish: # Run publish
 	npm publish --dry-run
+
+lint: # connetion Eslint
+	npx eslint .
+
+actions: # send to git actions
+	make lint
