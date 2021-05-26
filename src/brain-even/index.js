@@ -1,14 +1,14 @@
 import readLineSync from 'readline-sync';
 
-import getRandomInt from './getRandomInt.js';
+import randomInt from '../randomInt.js';
 import checkNum from './checkNum.js';
-import cli from './cli.js';
+import cli from '../cli.js';
 
-const even = () => {
+const index = () => {
   const useName = cli();
   console.log('Answer "yes" if the number is even, otherwise answer "no"');
   for (let i = 0; i < 3; i++) {
-    const number = getRandomInt(1, 30);
+    const number = randomInt(1, 30);
     console.log(`Question: ${number}`);
     const answer = readLineSync.question('Your answer: ');
     if (answer === checkNum(number)) {
@@ -24,4 +24,4 @@ const even = () => {
   }
 };
 
-export default even;
+export default index;
