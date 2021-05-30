@@ -8,4 +8,4 @@
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ### asciinema
-https://asciinema.org/a/OXx9sCqmrdclGcaIM01w6mpvt
+https://asciinema.org/a/KhNLxj94soPVHvNcOLjKpPp96

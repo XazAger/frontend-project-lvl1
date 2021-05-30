@@ -1,23 +1,23 @@
 import readLineSync from 'readline-sync';
-
-import randomInt from '../randomInt.js';
-import checkNum from './checkNum.js';
 import cli from '../cli.js';
+import makeProgression from './makeProgression.js';
 
 const index = () => {
   const useName = cli();
-  console.log('Answer "yes" if the number is even, otherwise answer "no"');
+  console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i++) {
-    const number = randomInt(1, 10);
-    console.log(`Question: ${number}`);
+    const array = makeProgression();
+
+    console.log(`Question: ${array[0].join(' ')}`);
     const answer = readLineSync.question('Your answer: ');
-    if (answer === checkNum(number)) {
+
+    if (+answer === array[1]) {
       console.log('Correct!');
       if (i === 2) {
         console.log(`Congratulations, ${useName}`);
       }
     } else {
-      console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${array[1]}'.`);
       console.log(`Let's try again, ${useName}!`);
       break;
     }
