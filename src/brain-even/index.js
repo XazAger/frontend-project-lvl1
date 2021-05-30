@@ -16,8 +16,8 @@ const index = () => {
       if (i === 2) {
         console.log(`Congratulations, ${useName}`);
       }
-    } else {
-      console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
+    }else {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkNum(number)}'.`);
       console.log(`Let's try again, ${useName}!`);
       break;
     }
