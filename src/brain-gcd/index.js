@@ -17,7 +17,7 @@ const index = () => {
       console.log(`Your answer: ${result}`);
       console.log('Correct!');
       if (i === 2) {
-        console.log(`Congratulations, ${useName}`);
+        console.log(`Congratulations, ${useName}!`);
         break;
       }
     } else {
