@@ -18,5 +18,5 @@ rules: {
           }
         ],
   no-console: off,
-  "eol-last": 0,
+  eol-last: ["error", "never"]
 }
