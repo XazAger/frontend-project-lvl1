@@ -9,7 +9,7 @@ const operate = ['+', '*', '-'];
 const index = () => {
   const useName = cli();
   console.log('What is the result of the expression?');
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i += 1) {
     const num1 = randomInt(1, 10);
     const num2 = randomInt(1, 10);
     const currentOperate = randomOperate(operate);

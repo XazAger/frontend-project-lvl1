@@ -1,7 +1,13 @@
 const checkAnswer = (num1, num2, currentOperator) => {
-  if (currentOperator === '+') return num1 + num2;
-  if (currentOperator === '*') return num1 * num2;
-  if (currentOperator === '-') return num1 - num2;
+  let result = 0;
+  if (currentOperator === '+') {
+    result = num1 + num2;
+  } else if (currentOperator === '*') {
+    result = num1 * num2;
+  } else if (currentOperator === '-') {
+    result = num1 - num2;
+  }
+  return result;
 };
 
 export default checkAnswer;

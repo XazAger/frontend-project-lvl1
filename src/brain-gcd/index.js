@@ -6,7 +6,7 @@ import cli from '../cli.js';
 const index = () => {
   const useName = cli();
   console.log('Find the greatest common divisor of given numbers.');
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i += 1) {
     const num1 = getRandomInt(1, 10);
     const num2 = getRandomInt(1, 10);
     const result = commonDivisor(num1, num2);

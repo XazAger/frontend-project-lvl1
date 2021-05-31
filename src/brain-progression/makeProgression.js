@@ -7,7 +7,7 @@ const makeProgression = () => {
   const step = getRandomInt(3, 5);
   const index = getRandomInt(0, 10);
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 10; i + 1) {
     begin += step;
     array.push(begin);
   }
