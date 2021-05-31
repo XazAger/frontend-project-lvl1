@@ -14,7 +14,6 @@ const index = () => {
     console.log(`Question: ${num1} ${num2}`);
     const answer = readLineSync.question('Your answer: ');
     if (+answer === result) {
-      console.log(`Your answer: ${result}`);
       console.log('Correct!');
       if (i === 2) {
         console.log(`Congratulations, ${useName}!`);

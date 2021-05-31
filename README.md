@@ -7,5 +7,17 @@
 ### GitActions
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
-### asciinema
-https://asciinema.org/a/JC6hh0GirCkXPgHpsCKZurbIs
+### brain-even
+https://asciinema.org/a/JIVa3eVOUyLqLmSYLm8da7jE6
+
+### brain-calc
+https://asciinema.org/a/A8hhUNpYFRB95muCGgqtxCSuF
+
+### brain-gcd
+https://asciinema.org/a/ajUsLmaQ0krV7wn3xnvtJA31P
+
+### brain-progression
+https://asciinema.org/a/aWzXKtyCbgNqsxFYW6OIYxHgq
+
+### brain-prime
+https://asciinema.org/a/cKpvaTOX289piGdCLS3eo4o2z
