@@ -19,7 +19,7 @@ const index = () => {
     if (+answer === checkAnswer(num1, num2, currentOperate)) {
       console.log('Correct!');
       if (i === 2) {
-        console.log(`Congratulations, ${useName}`);
+        console.log(`Congratulations, ${useName}!`);
       }
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkAnswer(num1, num2, currentOperate)}'.`);
