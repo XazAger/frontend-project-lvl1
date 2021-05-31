@@ -1,5 +1,6 @@
 import readLineSync from 'readline-sync';
 import cli from '../cli.js';
+import hiddenNum from './hiddenNum.js';
 import makeProgression from './makeProgression.js';
 
 const index = () => {
@@ -7,17 +8,18 @@ const index = () => {
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {
     const array = makeProgression();
+    const reply = hiddenNum(array);
 
-    console.log(`Question: ${array[0].join(' ')}`);
+    console.log(`Question: ${reply}`);
     const answer = readLineSync.question('Your answer: ');
 
-    if (+answer === array[1]) {
+    if (+answer === reply[1]) {
       console.log('Correct!');
       if (i === 2) {
         console.log(`Congratulations, ${useName}!`);
       }
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${array[1]}'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${reply[1]}'.`);
       console.log(`Let's try again, ${useName}!`);
       break;
     }
