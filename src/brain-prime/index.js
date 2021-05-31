@@ -8,7 +8,7 @@ const index = () => {
     console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     for(let i = 0; i < 3; i++) {
-        let number = getRandomInt(1, 15);
+        let number = getRandomInt(1, 5);
         console.log(`Question: ${number}`);
         const answer = readLineSync.question('Your answer: ');
         if (answer === isPrime(number)) {
