@@ -1,10 +1,5 @@
 const checkNum = (num) => {
-  let answer = null;
-  if (num % 2 === 0) {
-    answer = 'yes';
-  } else if (num % 2 !== 0) {
-    answer = 'no';
-  }
+  const answer = num % 2 === 0 ? 'yes' : 'no';
   return answer;
 };
 

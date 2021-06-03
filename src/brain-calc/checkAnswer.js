@@ -1,13 +1,12 @@
-const checkAnswer = (num1, num2, currentOperator) => {
-  let result = 0;
-  if (currentOperator === '+') {
-    result = num1 + num2;
-  } else if (currentOperator === '*') {
-    result = num1 * num2;
-  } else if (currentOperator === '-') {
-    result = num1 - num2;
+const checkAnswer = (num1, num2, sign) => {
+  switch (sign) {
+    case '+':
+      return num1 + num2;
+    case '*':
+      return num1 * num2;
+    default:
+      return num1 - num2;
   }
-  return result;
 };
 
 export default checkAnswer;
