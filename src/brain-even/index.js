@@ -1,7 +1,7 @@
 import readLineSync from 'readline-sync';
 
 import randomInt from '../randomInt.js';
-import checkNum from './checkNum.js';
+import checkAnswer from './checkAnswer.js';
 import cli from '../cli.js';
 
 const index = () => {
@@ -11,13 +11,13 @@ const index = () => {
     const number = randomInt(1, 10);
     console.log(`Question: ${number}`);
     const answer = readLineSync.question('Your answer: ');
-    if (answer === checkNum(number)) {
+    if (answer === checkAnswer(number)) {
       console.log('Correct!');
       if (i === 2) {
         console.log(`Congratulations, ${useName}!`);
       }
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkNum(number)}'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkAnswer(number)}'.`);
       console.log(`Let's try again, ${useName}!`);
       break;
     }

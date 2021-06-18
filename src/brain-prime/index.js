@@ -1,7 +1,7 @@
 import readLineSync from 'readline-sync';
 import cli from '../cli.js';
 import getRandomInt from '../randomInt.js';
-import isPrime from './isPrime.js';
+import checkAnswer from './checkAnswer.js';
 
 const index = () => {
   const useName = cli();
@@ -11,13 +11,13 @@ const index = () => {
     const number = getRandomInt(1, 5);
     console.log(`Question: ${number}`);
     const answer = readLineSync.question('Your answer: ');
-    if (answer === isPrime(number)) {
+    if (answer === checkAnswer(number)) {
       console.log('Correct!');
       if (i === 2) {
         console.log(`Congratulations, ${useName}!`);
       }
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${isPrime(number)}'.`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkAnswer(number)}'.`);
       console.log(`Let's try again, ${useName}!`);
       break;
     }

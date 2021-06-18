@@ -7,8 +7,8 @@ const index = () => {
   const useName = cli();
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {
-    const array = makeProgression();
-    const reply = hiddenNum(array);
+    const sequense = makeProgression();
+    const reply = hiddenNum(sequense);
 
     console.log(`Question: ${reply}`);
     const answer = readLineSync.question('Your answer: ');

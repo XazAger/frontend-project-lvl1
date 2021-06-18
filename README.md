@@ -8,16 +8,16 @@
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ### brain-even
-https://asciinema.org/a/JIVa3eVOUyLqLmSYLm8da7jE6
+[![asciicast](https://asciinema.org/a/8kNJwjAJpec6kXHq9t5L3CzuQ.svg)](https://asciinema.org/a/8kNJwjAJpec6kXHq9t5L3CzuQ)
 
 ### brain-calc
 [![asciicast](https://asciinema.org/a/421144.svg)](https://asciinema.org/a/421144)
 
 ### brain-gcd
-https://asciinema.org/a/ajUsLmaQ0krV7wn3xnvtJA31P
+[![asciicast](https://asciinema.org/a/421146.svg)](https://asciinema.org/a/421146)
 
 ### brain-progression
-https://asciinema.org/a/aWzXKtyCbgNqsxFYW6OIYxHgq
+[![asciicast](https://asciinema.org/a/vNBbAZnASmANw7On1d5nqDhRj.svg)](https://asciinema.org/a/vNBbAZnASmANw7On1d5nqDhRj)
 
 ### brain-prime
-https://asciinema.org/a/cKpvaTOX289piGdCLS3eo4o2z
+[![asciicast](https://asciinema.org/a/oEoVNCIuD0feXWsy8AWPkR6Ez.svg)](https://asciinema.org/a/oEoVNCIuD0feXWsy8AWPkR6Ez)
