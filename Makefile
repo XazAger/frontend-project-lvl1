@@ -1,4 +1,4 @@
-install: # Create node_modules
+install: # install node_modules
 	npm ci
 
 brain-games: # Start brain-games
