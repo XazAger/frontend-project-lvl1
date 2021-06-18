@@ -21,7 +21,3 @@
 
 ### brain-prime
 [![asciicast](https://asciinema.org/a/oEoVNCIuD0feXWsy8AWPkR6Ez.svg)](https://asciinema.org/a/oEoVNCIuD0feXWsy8AWPkR6Ez)
-
-### Setup
-make install
-npm link
