@@ -15,6 +15,6 @@ const isPrime = (number) => {
 const checkAnswer = (number) => {
   const answer = isPrime(number) ? 'yes' : 'no';
   return answer;
-}
+};
 
 export default checkAnswer;
